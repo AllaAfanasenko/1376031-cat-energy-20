@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Alla Afanasenko](https://up.htmlacademy.ru/adaptive/20/user/1376031).
-* Наставник: `Неизвестно`.
+* Наставник: [Valeria Kozhevnikova](https://htmlacademy.ru/profile/id702559).
 
 ---
 
