@@ -42,9 +42,126 @@
     <h1 class="page-main__title page-title">
       Подбор программы
     </h1>
+    <section class="program-selection">
+      <p class="program-selection__action">
+        Заполните анкету, и мы подберем программу питания для вашего кота
+      </p>
+      <form class="program-selection__form program-selection-form " action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="program-selection-form__pet-main-info pet-main-info">
+          <div class="pet-main-info__pet-name input-field">
+            <label for="pet-name" class="input-field__label"> Имя:*
+              <input class="input-field__input" id="pet-name" type="text">
+            </label>
+          </div>
+          <div class="pet-main-info__pet-weight input-field">
+            <label for="pet-weight" class="input-field__label"> Вес (кг):*
+              <input class="input-field__input" id="pet-weight" type="number">
+            </label>
+          </div>
+          <div class="pet-main-info__pet-age input-field">
+            <label for="pet-age" class="input-field__label"> Возраст (лет):
+              <input class="input-field__input" id="pet-age" type="number">
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="program-selection-form__program-type program-type">
+          <ul class="program-type__list">
+            <li class="program-type__item input-radio">
+              <label for="slim-program" class="input-radio__label"> Похудение
+                <input type="radio" id="slim-program" class="input-radio__input">
+                <span class="input-radio__radio-button"></span>
+              </label>
+            </li>
+            <li class="program-type__item input-radio">
+              <label for="slim-program" class="input-radio__label"> Набор массы
+                <input type="radio" id="slim-program" class="input-radio__input">
+                <span class="input-radio__radio-button"></span>
+              </label>
+            </li>
+            <li class="program-type__item input-radio">
+              <label for="slim-program" class="input-radio__label"> Не знаю (нужен ваш совет)
+                <input type="radio" id="slim-program" class="input-radio__input">
+                <span class="input-radio__radio-button"></span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="program-selection-form__contacts contacts">
+          <legend class="contacts__title second-level-title">
+            Контактные данные (владельца кота)
+          </legend>
+          <div class="contacts__email input-field">
+            <label for="email" class="input-field__label"> E-mail:*
+              <input class="input-field__input" id="email" type="email">
+              <span class="input-field__icon"></span>
+            </label>
+          </div>
+          <div class="contacts__phone input-field">
+            <label for="phone" class="input-field__label"> Телефон:*
+              <input class="input-field__input" id="phone" type="tel">
+              <span class="input-field__icon"></span>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="program-selection-form__comments comments">
+          <legend class="comments__title second-level-title">Комментарий</legend>
+          <div class="comments__textarea input-textarea">
+            <label for="comments" class="input-textarea__label">
+              <textarea name="comments-textarea" id="comments" cols="30" rows="10"
+                        class="input-textarea__textarea" placeholder="Расскажите о всех повадках кота"></textarea>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="program-selection-form__additional-products additional-products">
+          <legend class="additional-products__title second-level-title">Дополнительно</legend>
+          <ul class="additional-products__list">
+            <li class="additional-products__item input-checkbox">
+              <label for="sweetener" class="input-checkbox__label">Сахарозаменитель
+                <input type="checkbox" id="sweetener" class="input-checkbox__input">
+                <span class="input-checkbox__checkbox-button"></span>
+              </label>
+            </li>
+            <li class="additional-products__item input-checkbox">
+              <label for="water" class="input-checkbox__label">Питьевая вода
+                <input type="checkbox" id="water" class="input-checkbox__input">
+                <span class="input-checkbox__checkbox-button"></span>
+              </label>
+            </li>
+            <li class="additional-products__item input-checkbox">
+              <label for="milk" class="input-checkbox__label">Молоко
+                <input type="checkbox" id="milk" class="input-checkbox__input">
+                <span class="input-checkbox__checkbox-button"></span>
+              </label>
+            </li>
+            <li class="additional-products__item input-checkbox">
+              <label for="vitamins" class="input-checkbox__label">Витамины
+                <input type="checkbox" id="vitamins" class="input-checkbox__input">
+                <span class="input-checkbox__checkbox-button"></span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <button class="program-selection-form__submit button" type="submit" name="send-request">Отправить заявку</button>
+
+        <small class="program-selection-form__additional-info">* — Обязательные поля</small>
+
+      </form>
+    </section>
+
+
   </main>
 
   <footer class="page-footer">
+    <div class="page-footer__partner">
+      <p class="page-footer__call-text">Приглашаем к сотрудничеству дилеров!</p>
+      <p class="page-footer__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+    </div>
+
     <img src="https://via.placeholder.com/150x150" alt="Cat Energy">
     <div class="page-footer__social social">
       <ul class="social__list">
@@ -69,6 +186,7 @@
       <p class="copyright__text">HTML Academy</p>
       <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
     </div>
+
   </footer>
 
 </body>
