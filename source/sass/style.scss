@@ -1,1 +1,79 @@
-// Начните писать стили здесь
+//global styles
+@import "global/global.scss";
+@import "global/variables";
+@import "global/normalize.scss";
+@import "global/fonts";
+
+//blocks
+@import "blocks/page/page";
+@import "blocks/page/__body/page__body.scss";
+
+//buttons
+@import "blocks/button/button.scss";
+
+//text styles
+@import "blocks/regular-text/regular-text.scss";
+@import "blocks/section-title/section-title.scss";
+@import "blocks/section-title/_section-title/section-title--white.scss";
+@import "blocks/uppercase-title-medium/uppercase-title-medium.scss";
+
+
+//header
+@import "blocks/page-header/page-header.scss";
+@import "blocks/page-header/__logo/page-header__logo.scss";
+@import "blocks/main-nav/main-nav.scss";
+@import "blocks/main-nav/__list/main-nav__list.scss";
+@import "blocks/site-list/site-list.scss";
+@import "blocks/site-list/__link/site-list__link";
+@import "blocks/site-list/__link/site-list__link.scss";
+@import "blocks/site-list/__item/site-list__item.scss";
+
+//footer
+@import "blocks/page-footer/page-footer.scss";
+@import "blocks/page-footer/__social/page-footer__social.scss";
+@import "blocks/page-footer/__copyright/page-footer__copyright.scss";
+@import "blocks/page-footer/__logo/page-footer__logo.scss";
+@import "blocks/social/social.scss";
+@import "blocks/social/__list/social__list.scss";
+@import "blocks/social/__item/social__item.scss";
+@import "blocks/social/__link/social__link.scss";
+@import "blocks/copyright/copyright.scss";
+@import "blocks/copyright/__link/copyright__link.scss";
+@import "blocks/copyright/__text/copyright__text.scss";
+
+
+//promo
+@import "blocks/promo/__header/promo__header.scss";
+@import "blocks/promo/__slogan/promo__slogan.scss";
+@import "blocks/promo/__title/promo__title.scss";
+
+//program
+@import "blocks/program/program.scss";
+@import "blocks/program/__list/program__list.scss";
+@import "blocks/program/__item/program__item.scss";
+@import "blocks/program-item/program-item.scss";
+@import "blocks/program-item/__title/program-item__title.scss";
+
+//principle
+@import "blocks/principle/principle.scss";
+@import "blocks/principle/__list/principle__list.scss";
+@import "blocks/principle/__item/principle__item.scss";
+
+//products
+@import "blocks/products/products.scss";
+@import "blocks/products/__catalog/products__catalog.scss";
+@import "blocks/products/__more/products__more.scss";
+@import "blocks/catalog/catalog.scss";
+@import "blocks/catalog/__list/catalog__list.scss";
+@import "blocks/catalog/__item/catalog__item.scss";
+@import "blocks/catalog-item/catalog-item.scss";
+@import "blocks/catalog-item/__title/catalog-item__title.scss";
+@import "blocks/catalog-item/__button/catalog-item__button.scss";
+@import "blocks/catalog-item/__link/catalog-item__link.scss";
+@import "blocks/catalog-item/__table/catalog-item__table.scss";
+@import "blocks/catalog-item/__link-img/catalog-item__link-img.scss";
+@import "blocks/product-table/product-table.scss";
+@import "blocks/product-table/__row/product-table__row.scss";
+@import "blocks/product-table/__cell/product-table__cell.scss";
+
+
