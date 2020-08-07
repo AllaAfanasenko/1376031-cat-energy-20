@@ -39,12 +39,10 @@
   </header>
 
   <main class="page-main">
-    <h1 class="page-main__title page-title">
-      Каталог продукции
-    </h1>
+    <h1 class="page-main__title page-title">Каталог продукции</h1>
     <section class="products">
-      <h2 class="visually-hidden">Продукты</h2>
-      <div class="products__catalog catalog">
+      <section class="products__catalog catalog">
+        <h2 class="visually-hidden">Основная продукция</h2>
         <ul class="catalog__list">
           <li class="catalog__item catalog-item">
             <a class="catalog-item__link" href="#">
@@ -194,22 +192,105 @@
             <button class="catalog-item__button button" type="button" name="button">Заказать</button>
           </li>
         </ul>
-      </div>
 
-      <div class="products__more calatog-more">
-        <div class="calatog-more__icon">
-          icon will be here
+        <div class="products__more calatog-more">
+          <div class="calatog-more__icon">
+            icon will be here
+          </div>
+          <p class="calatog-more__action uppercase-title-medium">показать ещё 100500 товаров</p>
+          <p class="calatog-more__text">на самом деле вкусов гораздо больше</p>
+          <button class="catalog-more__show-all button" type="button" name="button">Показать все</button>
         </div>
-        <p class="calatog-more__action uppercase-title-medium">показать ещё 100500 товаров</p>
-        <p class="calatog-more__text">на самом деле вкусов гораздо больше</p>
-        <button class="catalog-more__show-all button" type="button" name="button">Показать все</button>
-      </div>
+      </section>
+
+      <section class="products__additional-products additional-products">
+        <h2 class="products__title second-level-title">Дополнительные товары</h2>
+        <table class="additional-products__table additional-products-table">
+          <tr class="additional-products-table__row">
+            <td class="additional-products-table__cell">
+              <div class="additional-product">
+                <h3 class="additional-product__title uppercase-title-medium">Сахарозаменитель</h3>
+                <div class="additional-product__units-container">
+                  <p class="additional-product__units">
+                    1 упаковка (100 г)
+                  </p>
+                </div>
+                <div class="additional-product__price-container">
+                  <p class="additional-product__price">
+                    200 P.
+                  </p>
+                </div>
+                <button class="catalog-item__button button" type="button" name="button">Заказать</button>
+              </div>
+            </td>
+          </tr>
+          <tr class="additional-products-table__row">
+            <td class="additional-products-table__cell">
+              <div class="additional-product">
+                <h3 class="additional-product__title uppercase-title-medium">Питьевая вода</h3>
+                <div class="additional-product__units-container">
+                  <p class="additional-product__units">
+                    5 литров
+                  </p>
+                </div>
+                <div class="additional-product__price-container">
+                  <p class="additional-product__price">
+                    50 P.
+                  </p>
+                </div>
+                <button class="catalog-item__button button" type="button" name="button">Заказать</button>
+              </div>
+            </td>
+          </tr>
+          <tr class="additional-products-table__row">
+            <td class="additional-products-table__cell">
+              <div class="additional-product">
+                <h3 class="additional-product__title uppercase-title-medium">Молоко</h3>
+                <div class="additional-product__units-container">
+                  <p class="additional-product__units">
+                    1 литр
+                  </p>
+                </div>
+                <div class="additional-product__price-container">
+                  <p class="additional-product__price">
+                    100 P.
+                  </p>
+                </div>
+                <button class="catalog-item__button button" type="button" name="button">Заказать</button>
+              </div>
+            </td>
+          </tr>
+          <tr class="additional-products-table__row">
+            <td class="additional-products-table__cell">
+              <div class="additional-product">
+                <h3 class="additional-product__title uppercase-title-medium">Витамины</h3>
+                <div class="additional-product__units-container">
+                  <p class="additional-product__units">
+                    1 упаковка (30 г)
+                  </p>
+                </div>
+                <div class="additional-product__price-container">
+                  <p class="additional-product__price">
+                    300 P.
+                  </p>
+                </div>
+                <button class="catalog-item__button button" type="button" name="button">Заказать</button>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </section>
 
     </section>
 
   </main>
 
   <footer class="page-footer">
+    <div class="page-footer__partner">
+      <p class="page-footer__call-text">Приглашаем к сотрудничеству дилеров!</p>
+      <p class="page-footer__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+    </div>
+
     <img src="https://via.placeholder.com/150x150" alt="Cat Energy">
     <div class="page-footer__social social">
       <ul class="social__list">
@@ -234,8 +315,8 @@
       <p class="copyright__text">HTML Academy</p>
       <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
     </div>
-  </footer>
 
+  </footer>
 </body>
 
 </html>
